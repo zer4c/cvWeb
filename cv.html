@@ -1,14 +1,103 @@
 <!doctype html>
 
-<head lang="es" , title="CV pablo"> </head>
+<head lang="es" , title="CV pablo">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles/general.css" />
+</head>
 
 <body>
   <header>
     <h1>Curriculum Vitae</h1>
+    <h1>Pablo Adrian Azurduy Rivera</h1>
+    <p>Estudiante en ing. Informatica</p>
   </header>
 
-  <section>
-    <p>Pablo Adrian Azurduy Rivera</p>
+  <section class="exterior">
+    <h2>Proyectos</h2>
+    <section>
+      <h3>InventarioFacilito</h3>
+      <p>
+        Es una API Backend construido con typescript con el frawework
+        Express.js, este consiste de una gestion de un inventario de productos,
+        acepta concurrencia de transacciones, asi como historiales de cambios y
+        transacciones, entradas y salidas de stock de un producto, tambien
+        contiene test unitarios y e2e, validaciones de datos, bases de datos
+        especificas utilizando docker. En este proyecto estuve a cargo del
+        diseño de la base de datos, arquitectura del proyecto y programacion.
+      </p>
+      <p class="fecha">Enero - 2026</p>
+    </section>
+    <section>
+      <h3>Reportes de latex</h3>
+      <p>
+        Es un proyecto que sirve para crear reportes automaticos de latex de
+        vulnerabilidades de ciberseguridad a partir de informacion de entrada.
+        En este proyecto estoy a cargo de todo el desarollo de backend,
+        implementado con fastapi (python).
+      </p>
+      <p class="fecha">Diciembre - 2025 -> Sigue en desarrollo</p>
+    </section>
+    <section>
+      <h3>Notebooks Machine Learning</h3>
+      <p>
+        En este proyecto tengo una coleccion de notebooks jupyter con varios
+        pipelines y entrenamiendo de modelos de machine learning para
+        prediccion.
+      </p>
+      <p class="fecha">2025</p>
+    </section>
+    <section>
+      <h3>Competitivo</h3>
+      <p>
+        Es otra coleccion con algoritmos basicos de programacion competitiva,
+        tiene tambien explicaciones basicas de conceptos para resolver
+        ejercicios.
+      </p>
+      <p class="fecha">2025</p>
+    </section>
+  </section>
+
+  <section class="exterior">
+    <h2>Educacion</h2>
+    <section>
+      <p>Estudiante-Universidad Mayor de San Simon</p>
+      <p class="fecha">2023-Actualidad</p>
+    </section>
+  </section>
+
+  <section class="exterior">
+    <h2>Experiencia y liderazgo</h2>
+    <section>
+      <h3>Miembro de SCESI</h3>
+      <p>Estando en las areas de Inteligencia artifial y Backend</p>
+      <p class="fecha">2023-Actualidad</p>
+    </section>
+  </section>
+
+  <section class="exterior">
+    <h2>Habilidades</h2>
+    <section>
+      <p class="skill">Python</p>
+      <p>Fastapi, Scikit-learn, SqlAlchemy, alembic, pydantic, pytest</p>
+    </section>
+
+    <section>
+      <p class="skill">typescript</p>
+      <p>Express, TypeORM, Sequelize, zod, jest</p>
+    </section>
+
+    <section>
+      <p class="skill">java</p>
+      <p>Springboot</p>
+    </section>
+  </section>
+
+  <footer>
     <div>
       <p>
         <svg
@@ -76,87 +165,5 @@
         >
       </p>
     </div>
-    <p>Estudiante en ing. Informatica</p>
-  </section>
-
-  <section>
-    <h2>Proyectos</h2>
-    <section>
-      <h3>InventarioFacilito</h3>
-      <p>
-        Es una API Backend construido con typescript con el frawework
-        Express.js, este consiste de una gestion de un inventario de productos,
-        acepta concurrencia de transacciones, asi como historiales de cambios y
-        transacciones, entradas y salidas de stock de un producto, tambien
-        contiene test unitarios y e2e, validaciones de datos, bases de datos
-        especificas utilizando docker. En este proyecto estuve a cargo del
-        diseño de la base de datos, arquitectura del proyecto y programacion.
-      </p>
-      <p class="fecha">Enero - 2026</p>
-    </section>
-    <section>
-      <h3>Reportes de latex</h3>
-      <p>
-        Es un proyecto que sirve para crear reportes automaticos de latex de
-        vulnerabilidades de ciberseguridad a partir de informacion de entrada.
-        En este proyecto estoy a cargo de todo el desarollo de backend,
-        implementado con fastapi (python).
-      </p>
-      <p class="fecha">Diciembre - 2025 -> Sigue en desarrollo</p>
-    </section>
-    <section>
-      <h3>Notebooks Machine Learning</h3>
-      <p>
-        En este proyecto tengo una coleccion de notebooks jupyter con varios
-        pipelines y entrenamiendo de modelos de machine learning para
-        prediccion.
-      </p>
-      <p class="fecha">2025</p>
-    </section>
-    <section>
-      <h3>Competitivo</h3>
-      <p>
-        Es otra coleccion con algoritmos basicos de programacion competitiva,
-        tiene tambien explicaciones basicas de conceptos para resolver
-        ejercicios.
-      </p>
-      <p class="fecha">2025</p>
-    </section>
-  </section>
-  <section>
-    <h2>Educacion</h2>
-    <section>
-      <p>Estudiante-Universidad Mayor de San Simon</p>
-      <p class="fecha">2023-Actualidad</p>
-    </section>
-  </section>
-
-  <section>
-    <h2>Experiencia y liderazgo</h2>
-    <section>
-      <h3>Miembro de SCESI</h3>
-      <p>Estando en las areas de Inteligencia artifial y Backend</p>
-      <p class="fecha">2023-Actualidad</p>
-    </section>
-  </section>
-
-  <section>
-    <h2>Habilidades</h2>
-    <section>
-      <p class="skill">Python</p>
-      <p>Fastapi, Scikit-learn, SqlAlchemy, alembic, pydantic, pytest</p>
-    </section>
-
-    <section>
-      <p class="skill">typescript</p>
-      <p>Express, TypeORM, Sequelize, zod, jest</p>
-    </section>
-
-    <section>
-      <p class="skill">java</p>
-      <p>Springboot</p>
-    </section>
-  </section>
-
-  <footer></footer>
+  </footer>
 </body>

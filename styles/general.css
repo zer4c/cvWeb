@@ -1,0 +1,48 @@
+body {
+  background-color: #FFFFFF;
+  color: #101016;
+  font-family: "Iosevka Charon Mono";
+  margin: 0;
+  padding: 30px 0px 0px 0px;
+}
+
+footer {
+  background-color: #012A36;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+a:visited, a:hover{
+  color: #C49E85
+}
+
+
+h1 {
+  color: #6B4B3E;
+}
+
+h2,h3 {
+  color: #C49E85;
+}
+
+section{
+  background-color: #F8F4F9;
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+section.exterior{
+  border-radius: 10px;
+  border-color: #6B4B3E;
+  border-width: 2px;
+  border-style: solid;
+  
+}
+
+.fecha {
+  color: #6B4B3E;
+}
