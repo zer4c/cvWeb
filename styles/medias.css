@@ -1,0 +1,14 @@
+@media only screen and (orientation: landscape) {
+  section.exterior {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  section.exterior h2 {
+    grid-column: 1 / -1; 
+  }
+
+  section.exterior hr {
+    display: none; 
+  }
+}
