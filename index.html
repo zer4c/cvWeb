@@ -11,21 +11,27 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="styles/general.css">
-  <link rel="stylesheet" href="styles/fonts.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
   <link rel="stylesheet" href="styles/medias.css">
+  <style>
+    .w3-iosevka {
+      font-family: "Iosevka Charon Mono";
+    }
+  </style>
+
 </head>
 
-<body>
-  <header>
+<body class="w3-white w3-text-black w3-iosevka">
+  <header class="w3-center w3-section">
     <h1>Curriculum Vitae</h1>
     <h1>Pablo Adrian Azurduy Rivera</h1>
     <p>Estudiante en ing. Informatica</p>
   </header>
 
-  <section class="exterior">
-    <h2>Proyectos</h2>
-    <section>
+  <section class="w3-panel w3-padding-16 w3-topbar w3-bottombar w3-border w3-margin "
+    style="background-color: #F8F4F9;">
+    <h2 class="w3-text" style="color: #012A36;">Proyectos</h2>
+    <section class="w3-container" style="border-top: solid #012A36 3px;">
       <h3>InventarioFacilito</h3>
       <p>
         Es una API Backend construido con typescript con el frawework
@@ -37,10 +43,10 @@
         estuve a cargo del diseño de la base de datos, arquitectura del
         proyecto y programacion.
       </p>
-      <p class="fecha">Enero - 2026</p>
+      <p class="w3-right w3-text-blue-gray">Enero - 2026</p>
     </section>
     <hr>
-    <section>
+    <section class="w3-container" style="border-top: solid #012A36 3px;">
       <h3>Reportes de latex</h3>
       <p>
         Es un proyecto que sirve para crear reportes automaticos de latex de
@@ -48,83 +54,86 @@
         En este proyecto estoy a cargo de todo el desarollo de backend,
         implementado con fastapi (python).
       </p>
-      <p class="fecha">Diciembre - 2025 -> Sigue en desarrollo</p>
+      <p class="w3-right w3-text-blue-gray">Diciembre - 2025 -> Sigue en desarrollo</p>
     </section>
     <hr>
-    <section>
+    <section class="w3-container" style="border-top: solid #012A36 3px;">
       <h3>Notebooks Machine Learning</h3>
       <p>
         En este proyecto tengo una coleccion de notebooks jupyter con varios
         pipelines y entrenamiendo de modelos de machine learning para
         prediccion.
       </p>
-      <p class="fecha">2025</p>
+      <p class="w3-right w3-text-blue-gray">2025</p>
     </section>
     <hr>
-    <section>
+    <section class="w3-container" style="border-top: solid #012A36 3px;">
       <h3>Competitivo</h3>
       <p>
         Es otra coleccion con algoritmos basicos de programacion competitiva,
         tiene tambien explicaciones basicas de conceptos para resolver
         ejercicios.
       </p>
-      <p class="fecha">2025</p>
+      <p class="w3-right w3-text-blue-gray">2025</p>
     </section>
   </section>
 
-  <section class="exterior">
-    <h2>Educacion</h2>
-    <section>
+  <section class="w3-panel w3-padding-16 w3-topbar w3-bottombar w3-border w3-margin "
+    style="background-color: #F8F4F9;">
+    <h2 class="w3-text" style="color: #012A36;">Educacion</h2>
+    <section class="w3-container" style="border-top: solid #012A36 3px;">
       <h3>Pregrado</h3>
       <p>Estudiante-Universidad Mayor de San Simon</p>
-      <p class="fecha">2023-Actualidad</p>
+      <p class="w3-right w3-text-blue-gray">2023-Actualidad</p>
     </section>
   </section>
 
-  <section class="exterior">
-    <h2>Experiencia y liderazgo</h2>
-    <section>
+  <section class="w3-panel w3-padding-16 w3-topbar w3-bottombar w3-border w3-margin "
+    style="background-color: #F8F4F9;">
+    <h2 class="w3-text" style="color: #012A36;">Experiencia y liderazgo</h2>
+    <section class="w3-container" style="border-top: solid #012A36 3px;">
       <h3>Miembro de SCESI</h3>
       <p>Estando en las areas de Inteligencia artifial y Backend</p>
-      <p class="fecha">2023-Actualidad</p>
+      <p class="w3-right w3-text-blue-gray">2023-Actualidad</p>
     </section>
   </section>
 
-  <section class="exterior">
-    <h2>Habilidades</h2>
-    <section>
+  <section class="w3-panel w3-padding-16 w3-topbar w3-bottombar w3-border w3-margin "
+    style="background-color: #F8F4F9;">
+    <h2 class="w3-text" style="color: #012A36;">Habilidades</h2>
+    <section class="w3-container" style="border-top: solid #012A36 3px;">
       <h3>Python</h3>
       <p>
-        <span class="skills">Fastapi</span>
-        <span class="skills">Scikit-learn</span>
-        <span class="skills">SqlAlchemy</span>
-        <span class="skills">Alembic</span>
-        <span class="skills">Pydantic</span>
-        <span class="skills">Pytest</span>
+        <span class="w3-tag" style="background-color: #012A36;">Fastapi</span>
+        <span class="w3-tag" style="background-color: #012A36;">Scikit-learn</span>
+        <span class="w3-tag" style="background-color: #012A36;">SqlAlchemy</span>
+        <span class="w3-tag" style="background-color: #012A36;">Alembic</span>
+        <span class="w3-tag" style="background-color: #012A36;">Pydantic</span>
+        <span class="w3-tag" style="background-color: #012A36;">Pytest</span>
       </p>
     </section>
     <hr>
-    <section>
+    <section class="w3-container" style="border-top: solid #012A36 3px;">
       <h3>Typescript</h3>
       <p>
-        <span class="skills">Express</span>
-        <span class="skills">TypeORM</span>
-        <span class="skills">Sequelize</span>
-        <span class="skills">Zod</span>
-        <span class="skills">Jest</span>
+        <span class="w3-tag" style="background-color: #012A36;">Express</span>
+        <span class="w3-tag" style="background-color: #012A36;">TypeORM</span>
+        <span class="w3-tag" style="background-color: #012A36;">Sequelize</span>
+        <span class="w3-tag" style="background-color: #012A36;">Zod</span>
+        <span class="w3-tag" style="background-color: #012A36;">Jest</span>
       </p>
     </section>
     <hr>
-    <section>
+    <section class="w3-container" style="border-top: solid #012A36 3px;">
       <h3>Java</h3>
       <p>
-        <span class="skills">Springboot</span>
+        <span class="w3-tag" style="background-color: #012A36;">Springboot</span>
       </p>
     </section>
   </section>
 
-  <footer>
-    <div>
+  <footer class="w3-text-white w3-cell-row" style="background-color:#012A36 ;">
+    <div class="w3-cell w3-mobile">
       <p>
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill"
           viewBox="0 0 16 16">
@@ -142,7 +151,7 @@
         <a href="tel:+59173723263"> Celular</a>
       </p>
     </div>
-    <div>
+    <div class="w3-cell w3-mobile">
       <p>
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
           viewBox="0 0 16 16">
